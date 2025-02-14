@@ -10,4 +10,17 @@ if __name__ == '__main__':
     # Immutability
     #string[0] = "C"
 
-    
+    string = "Not Python"
+    print(string)
+
+    # Formatted strings
+    job = 'Software Developer'
+
+    print(f"If you learn Python you can be a {job}")
+
+    print("If you learn Python you can be a {job}".format(job=job))
+
+
+
+
+
